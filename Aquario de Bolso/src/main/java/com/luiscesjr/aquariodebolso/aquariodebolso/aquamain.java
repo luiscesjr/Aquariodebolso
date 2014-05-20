@@ -28,7 +28,13 @@ public class aquamain extends Activity {
             startActivity(i);
         }
 
-        /**
+        public void sendMessage2(View view) {
+
+        Intent i = new Intent(aquamain.this, infomenu.class);
+        startActivity(i);
+    }
+
+    /**
          * Whether or not the system UI should be auto-hidden after
          * {@link #AUTO_HIDE_DELAY_MILLIS} milliseconds.
          */
