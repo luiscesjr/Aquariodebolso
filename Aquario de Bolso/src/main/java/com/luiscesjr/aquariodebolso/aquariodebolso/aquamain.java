@@ -7,9 +7,12 @@ import android.app.Activity;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Handler;
+import android.support.v4.app.FragmentPagerAdapter;
 import android.view.MotionEvent;
 import android.view.View;
 import android.content.Intent;
+import android.support.v4.app.DialogFragment;
+import android.support.v4.app.FragmentManager;
 
 /**
  * An example full-screen activity that shows and hides the system UI (i.e.
@@ -24,7 +27,6 @@ public class aquamain extends Activity {
             Intent i = new Intent(aquamain.this, aquamenu.class);
             startActivity(i);
         }
-
 
         /**
          * Whether or not the system UI should be auto-hidden after
