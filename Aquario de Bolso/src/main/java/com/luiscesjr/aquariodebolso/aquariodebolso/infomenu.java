@@ -11,6 +11,9 @@ import android.view.MotionEvent;
 import android.view.View;
 import android.view.MenuItem;
 import android.support.v4.app.NavUtils;
+import android.view.View.OnClickListener;
+import android.widget.ImageView;
+import android.graphics.drawable.AnimationDrawable;
 
 
 /**
@@ -93,7 +96,7 @@ public class infomenu extends Activity {
                             controlsView.setVisibility(visible ? View.VISIBLE : View.GONE);
                         }
 
-                        if (visible && AUTO_HIDE) {
+                        if (visible) {
                             // Schedule a hide().
                             delayedHide(AUTO_HIDE_DELAY_MILLIS);
                         }

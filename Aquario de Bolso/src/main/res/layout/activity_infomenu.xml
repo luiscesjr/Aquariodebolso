@@ -1,1 +1,130 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/fullscreen_content"
+    android:background="#ff282bff"
+    android:fitsSystemWindows="true"
+    android:keepScreenOn="true"
+    android:gravity="center"
+    tools:context="com.luiscesjr.aquariodebolso.aquariodebolso.infomenu">
 
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:id="@+id/button7"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/calendar128"
+        />
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:id="@+id/button8"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button11"
+        android:layout_alignStart="@+id/button11"
+        android:src="@drawable/fish128"/>
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:id="@+id/button9"
+        android:layout_alignParentTop="true"
+        android:layout_alignLeft="@+id/button12"
+        android:layout_alignStart="@+id/button12"
+        android:src="@drawable/clown_fish128"/>
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:id="@+id/button10"
+        android:layout_marginTop="102dp"
+        android:layout_below="@+id/button7"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:src="@drawable/ruler128"/>
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:id="@+id/button11"
+        android:layout_alignTop="@+id/button10"
+        android:layout_centerHorizontal="true"
+        android:src="@drawable/ruler128"/>
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:id="@+id/button12"
+        android:layout_alignTop="@+id/button11"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:src="@drawable/ruler128"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Calendário"
+        android:id="@+id/textView"
+        android:layout_below="@+id/button7"
+        android:layout_alignRight="@+id/textView4"
+        android:layout_alignEnd="@+id/textView4" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Aqua Doce"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/button8"
+        android:layout_centerHorizontal="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Aqua Marinho"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/button9"
+        android:layout_alignLeft="@+id/button9"
+        android:layout_alignStart="@+id/button9" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Ferramentas"
+        android:id="@+id/textView4"
+        android:layout_below="@+id/button10"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textView5"
+        android:layout_below="@+id/button11"
+        android:layout_alignRight="@+id/button11"
+        android:layout_alignEnd="@+id/button11" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textView6"
+        android:layout_below="@+id/button12"
+        android:layout_alignLeft="@+id/button12"
+        android:layout_alignStart="@+id/button12" />
+
+    <!-- This FrameLayout insets its children based on system windows using
+         android:fitsSystemWindows. -->
+
+</RelativeLayout>
