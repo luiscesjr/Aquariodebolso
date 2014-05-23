@@ -1,0 +1,68 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.luiscesjr.aquariodebolso.aquariodebolso.aquadoce"
+    android:background="#ff282bff">
+
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:id="@+id/button"
+        android:layout_marginTop="43dp"
+        android:src="@drawable/fish128"
+        android:layout_alignParentTop="true"
+        android:layout_toLeftOf="@+id/textView3" />
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:id="@+id/button2"
+        android:src="@drawable/plant_under_rain128"
+        android:layout_alignTop="@+id/button"
+        android:layout_toRightOf="@+id/textView3" />
+
+    <ImageButton
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:id="@+id/button3"
+        android:src="@drawable/clown_fish128"
+        android:layout_below="@+id/textView2"
+        android:layout_alignRight="@+id/textView3"
+        android:layout_alignEnd="@+id/textView3"
+        android:layout_marginTop="41dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Peixes Dulcículas"
+        android:id="@+id/textView"
+        android:layout_below="@+id/button"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text=" Plantas Hidrófilas\n       Dulcículas"
+        android:id="@+id/textView2"
+        android:layout_below="@+id/button2"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:text="Medium Text"
+        android:id="@+id/textView3"
+        android:layout_below="@+id/button3"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>

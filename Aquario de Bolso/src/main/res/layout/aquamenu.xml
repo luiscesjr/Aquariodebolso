@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ff282bff"
+    android:fitsSystemWindows="true"
+    android:keepScreenOn="true"
+    android:id="@+id/fullscreen_content"
+    tools:context="com.luiscesjr.aquariodebolso.aquariodebolso.aquamenu">
+
+
+    <CheckBox
+        android:id="@+id/enabled"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Vista Noturna"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="122dp" />
+
+
+</RelativeLayout>
+
+
+
