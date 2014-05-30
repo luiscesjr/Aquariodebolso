@@ -1,27 +1,29 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    android:background="#ff282bff"
-    android:fitsSystemWindows="true"
-    android:keepScreenOn="true"
-    android:id="@+id/fullscreen_content"
-    tools:context="com.luiscesjr.aquariodebolso.aquariodebolso.aquamenu">
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.luiscesjr.aquariodebolso.aquariodebolso.ferramentas"
+    android:background="#ff282bff">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:stretchColumns="1">
+
+        <ListView android:id="@android:id/list"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"/>
+
+    </RelativeLayout>
 
 
-    <CheckBox
-        android:id="@+id/enabled"
-        android:layout_width="150dp"
-        android:layout_height="50dp"
-        android:text="Vista Noturna"
-        android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="122dp" />
 
+</ScrollView>
 
-</RelativeLayout>
 
 
 

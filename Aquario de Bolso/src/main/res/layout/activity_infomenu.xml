@@ -33,6 +33,7 @@
         android:layout_alignParentStart="true"
         android:src="@drawable/calendar128"
         android:onClick="sendMessage0"
+             android:background="@drawable/buttonbackground"
         />
 
        <ImageButton
@@ -43,7 +44,8 @@
         android:layout_alignLeft="@+id/button11"
         android:layout_alignStart="@+id/button11"
         android:src="@drawable/fish128"
-        android:onClick="sendMessage"/>
+        android:onClick="sendMessage"
+           android:background="@drawable/buttonbackground"/>
 
         <ImageButton
         android:layout_width="120dp"
@@ -53,7 +55,8 @@
         android:layout_alignLeft="@+id/button12"
         android:layout_alignStart="@+id/button12"
         android:src="@drawable/clown_fish128"
-        android:onClick="sendMessage2"/>
+        android:onClick="sendMessage2"
+            android:background="@drawable/buttonbackground"/>
 
          <ImageButton
         android:layout_width="120dp"
@@ -64,7 +67,8 @@
         android:layout_alignParentLeft="true"
         android:layout_alignParentStart="true"
         android:src="@drawable/ruler128"
-        android:onClick="sendMessage3"/>
+        android:onClick="sendMessage3"
+             android:background="@drawable/buttonbackground"/>
 
         <ImageButton
         android:layout_width="120dp"
@@ -73,7 +77,8 @@
         android:layout_alignTop="@+id/button10"
         android:layout_centerHorizontal="true"
         android:src="@drawable/baby_feet128"
-        android:onClick="sendMessage4"/>
+        android:onClick="sendMessage4"
+            android:background="@drawable/buttonbackground"/>
 
         <ImageButton
         android:layout_width="120dp"
@@ -83,7 +88,8 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentEnd="true"
         android:src="@drawable/conversion128"
-        android:onClick="sendMessage5"/>
+        android:onClick="sendMessage5"
+            android:background="@drawable/buttonbackground"/>
 
         <TextView
         android:layout_width="wrap_content"
@@ -91,9 +97,9 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="   Calendário"
         android:id="@+id/textView"
-            android:layout_below="@+id/button7"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
+            android:layout_above="@+id/button10"
+            android:layout_alignRight="@+id/textView4"
+            android:layout_alignEnd="@+id/textView4" />
 
          <TextView
         android:layout_width="wrap_content"
@@ -101,8 +107,8 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Aqua Doce"
         android:id="@+id/textView2"
-        android:layout_below="@+id/button8"
-        android:layout_centerHorizontal="true" />
+             android:layout_above="@+id/button10"
+             android:layout_centerHorizontal="true" />
 
          <TextView
         android:layout_width="wrap_content"
@@ -110,9 +116,9 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Aqua Marinho"
         android:id="@+id/textView3"
-        android:layout_below="@+id/button9"
-        android:layout_alignLeft="@+id/button9"
-        android:layout_alignStart="@+id/button9" />
+             android:layout_alignBottom="@+id/button9"
+             android:layout_alignLeft="@+id/button9"
+             android:layout_alignStart="@+id/button9" />
 
             <TextView
         android:layout_width="wrap_content"
@@ -120,17 +126,17 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="  Ferramentas"
         android:id="@+id/textView4"
-        android:layout_below="@+id/button10"
-        android:layout_alignParentLeft="true"
-        android:layout_alignParentStart="true" />
+                android:layout_alignBottom="@+id/button10"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
 
            <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="      Guia\n        do\n   iniciante"
+        android:text="   Guia  do\n   iniciante"
         android:id="@+id/textView5"
-               android:layout_below="@+id/button11"
+               android:layout_alignBottom="@+id/textView6"
                android:layout_alignLeft="@+id/textView2"
                android:layout_alignStart="@+id/textView2" />
 
@@ -140,7 +146,7 @@
         android:textAppearance="?android:attr/textAppearanceMedium"
         android:text="Conversões"
         android:id="@+id/textView6"
-               android:layout_below="@+id/button12"
+               android:layout_alignTop="@+id/textView4"
                android:layout_alignRight="@+id/textView3"
                android:layout_alignEnd="@+id/textView3" />
 

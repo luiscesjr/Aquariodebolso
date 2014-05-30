@@ -17,7 +17,9 @@
         android:layout_marginTop="43dp"
         android:src="@drawable/fish128"
         android:layout_alignParentTop="true"
-        android:layout_toLeftOf="@+id/textView3" />
+        android:layout_toLeftOf="@+id/textView3"
+        android:onClick="sendMessage"
+        android:background="@drawable/buttonbackground"/>
 
     <ImageButton
         android:layout_width="120dp"
@@ -25,23 +27,25 @@
         android:id="@+id/button2"
         android:src="@drawable/plant_under_rain128"
         android:layout_alignTop="@+id/button"
-        android:layout_toRightOf="@+id/textView3" />
+        android:layout_toRightOf="@+id/textView3"
+        android:background="@drawable/buttonbackground"/>
 
     <ImageButton
         android:layout_width="120dp"
         android:layout_height="150dp"
         android:id="@+id/button3"
-        android:src="@drawable/clown_fish128"
+        android:src="@drawable/shrimp128"
         android:layout_below="@+id/textView2"
         android:layout_alignRight="@+id/textView3"
         android:layout_alignEnd="@+id/textView3"
-        android:layout_marginTop="41dp" />
+        android:layout_marginTop="41dp"
+        android:background="@drawable/buttonbackground"/>
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Peixes Dulcículas"
+        android:text="@string/dulcicula_content"
         android:id="@+id/textView"
         android:layout_below="@+id/button"
         android:layout_alignParentLeft="true"
@@ -51,7 +55,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text=" Plantas Hidrófilas\n       Dulcículas"
+        android:text="@string/dulcicula_content2"
         android:id="@+id/textView2"
         android:layout_below="@+id/button2"
         android:layout_alignParentRight="true"
@@ -61,8 +65,19 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:textAppearance="?android:attr/textAppearanceMedium"
-        android:text="Medium Text"
+        android:text="@string/dulcicula_content3"
         android:id="@+id/textView3"
         android:layout_below="@+id/button3"
         android:layout_centerHorizontal="true" />
+
+    <Button
+        android:id="@+id/openpopup"
+        android:drawableTop="@drawable/questions64"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:background="@drawable/buttonbackground"/>
+
 </RelativeLayout>

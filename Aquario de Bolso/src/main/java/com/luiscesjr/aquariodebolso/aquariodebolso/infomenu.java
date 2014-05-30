@@ -50,7 +50,7 @@ public class infomenu extends Activity {
 
     public void sendMessage0(View view) {
 
-        Intent i = new Intent(infomenu.this, conversoes.class);
+        Intent i = new Intent(infomenu.this, calendario.class);
         startActivity(i);
     }
 
