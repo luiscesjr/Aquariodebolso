@@ -1,5 +1,6 @@
 package com.luiscesjr.aquariodebolso.aquariodebolso;
 
+import android.content.Intent;
 import android.support.v7.app.ActionBarActivity;
 import android.os.Bundle;
 import android.view.Menu;
@@ -9,6 +10,8 @@ import android.widget.Button;
 import android.widget.EditText;
 import android.widget.TextView;
 
+import com.luiscesjr.aquariodebolso.aquariodebolso.ferramentasaqua.ferramentaaquario;
+
 
 public class ferramentas extends ActionBarActivity {
 
@@ -16,30 +19,12 @@ public class ferramentas extends ActionBarActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_ferramentas);
+    }
 
-        Button calc = (Button)findViewById(R.id.btnCalculate);
-        calc.setOnClickListener(new View.OnClickListener()
-        {
-            public void onClick(View v)
-            {
-                EditText number = (EditText)findViewById(R.id.num);
-                TextView display = (TextView)findViewById(R.id.display);
+    public void sendMessage(View view) {
 
-                double num = Double.parseDouble(number.getText().toString());
-
-                // first option
-                num = num * 5;
-
-                // second option (using static method)
-                num = Double.parseDouble(samplecalc.multNum(num));
-
-                // third option (using instance method)
-                samplecalc x = new samplecalc(num);
-                num = x.multNum2();
-
-                display.setText(num + "");
-            }
-        });
+        Intent i = new Intent(ferramentas.this, ferramentaaquario.class);
+        startActivity(i);
     }
 
     @Override

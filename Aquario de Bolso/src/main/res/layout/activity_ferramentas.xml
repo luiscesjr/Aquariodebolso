@@ -1,4 +1,4 @@
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
@@ -9,49 +9,25 @@
     tools:context="com.luiscesjr.aquariodebolso.aquariodebolso.ferramentas"
     android:background="#ff282bff">
 
-    <RelativeLayout
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:stretchColumns="1">
-        <TextView
-            android:layout_width="60dp"
-            android:layout_height="50dp"
-            android:id="@+id/display"
-            android:layout_alignParentBottom="true"
-            android:layout_toLeftOf="@+id/button"
-            android:layout_marginRight="34dp" />
-        <EditText
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:id="@+id/num"
-            android:ems="5"
-            android:inputType="numberDecimal|numberSigned"/>
-        <Button
-            android:id="@+id/btnCalculate"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Calculate"
-            android:layout_alignParentBottom="true"
-            android:layout_alignParentLeft="true"
-            android:layout_alignParentStart="true" />
         <ImageButton
             android:layout_width="150dp"
             android:layout_height="150dp"
-            android:text="New Button"
             android:id="@+id/button"
             android:src="@drawable/aquariumcalc128"
             android:background="@drawable/buttonbackground"
             android:layout_alignParentTop="true"
-            android:layout_alignParentRight="true"
-            android:layout_alignParentEnd="true" />
+            android:layout_alignParentLeft="true"
+            android:onClick="sendMessage"
+            android:layout_alignParentStart="true" />
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textAppearance="?android:attr/textAppearanceLarge"
             android:text="       Aquário"
             android:id="@+id/textView"
-            android:layout_alignParentBottom="true"
-            android:layout_alignLeft="@+id/button"
-            android:layout_alignStart="@+id/button" />
-    </RelativeLayout>
-</ScrollView>
+            android:layout_alignBottom="@+id/button"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+</RelativeLayout>
