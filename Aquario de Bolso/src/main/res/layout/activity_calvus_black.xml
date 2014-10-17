@@ -1,0 +1,68 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.luiscesjr.aquariodebolso.aquariodebolso.peixesdoce_layouts.CalvusBlack"
+    android:background="@drawable/bamboobackground">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/relative">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calvusblackinfo"
+            android:id="@+id/textView"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calvusblackinfo2"
+            android:id="@+id/textView2"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="730dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/calvusblackinfo3"
+            android:id="@+id/textView3"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_marginTop="1370dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView"
+            android:src="@drawable/altolamprologus_calvus_01"
+            android:layout_marginTop="360dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView2"
+            android:src="@drawable/altolamprologuscalvus02"
+            android:layout_marginTop="870dp" />
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/imageView3"
+            android:src="@drawable/altolamprologuscalvus03"
+            android:layout_marginTop="1450dp" />
+    </RelativeLayout>
+
+
+</ScrollView>

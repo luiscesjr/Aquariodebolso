@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Aquario de Bolso</string>
+    <string name="search_label">Procura de Conteúdo</string>
+    <string name="search_hint">Digite aqui a busca</string>
+    <string name="aqua_button">Aqua Menu</string>
+    <string name="aqua_content">Aquario \n de \n Bolso </string>
+    <string name="title_activity_infomenu">Menu Principal</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_aquadoce">Aqua Doce</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_aquamarinho">Aqua Marinho</string>
+    <string name="title_activity_ferramentas">Ferramentas</string>
+    <string name="title_activity_guia">Guia</string>
+    <string name="title_activity_conversoes">Conversoes</string>
+    <string name="title_activity_calendario">Calendario Interativo</string>
+    <string name="marinho_content1">Peixes Marinhos</string>
+    <string name="marinho_content2">Corais</string>
+    <string name="marinho_content3">Invertebrados Marinhos</string>
+    <string name="ferramentas">Aquário</string>
+    <string name="dulcicula_content">Peixes Dulcículas</string>
+    <string name="dulcicula_content2">Plantas Hidrófilas\n   Dulcículas</string>
+    <string name="dulcicula_content3">Invertebrados\nDulcículas</string>
+    <string name="title_activity_peixesdoce">Peixes Dulcículas</string>
+    <string name="title_activity_calvus_black">Calvus Black</string>
+    <string name="title_activity_ferramentaaquario">Cálculos do Aquário</string>
+    <string name="Volumeaqua">Volume do Aquário</string>
+    <string name="calculo">Calcular</string>
+    <string name="alt">  Altura</string>
+    <string name="esp"> Espessura</string>
+    <string name="pesoagua"> Peso Água</string>
+    <string name="larg">Largura</string>
+    <string name="comp">Comprimento</string>
+    <string name="fechar">Fechar</string>
+    <string name="popup1">Aqui você pode escolher qual seção do aquário doce deseja seguir.\n \n \n
+    -Peixes Dulcículas vai te levar até as fichas com informações de centenas de peixes de água doce. \n \n \n
+    -Invertebrados Dulcículas o levará as fichas dos invertebrados \n \n \n -Plantas Hidrófilas o levará
+    para as fichas de dezenas de plantas para aquários plantados de água doce!</string>
+    <string name="popup2">Nessa tela você encontrará ferramentas do aquário físico, como Volume, Peso, etc. \n \n
+    - Favor usar como medidas de comprimento centímetros, espessura em milímetros e Quilos para Peso. \n \n
+    - Também notar que o cálculo de peso é aproximado, já somando o peso da água (Para cada 1 Litro
+    de água temos 1 Quilo) mas não levando em consideração o peso do substrato, móvel, equipamentos, etc.</string>
+
+
+</resources>
