@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.luiscesjr.aquariodebolso.aquariodebolso" >
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/aquaicon"
+        android:installLocation="auto"
+        android:label="@string/app_name"
+        android:multiprocess="true"
+        android:theme="@style/Theme.AppCompat" >
+        <activity
+            android:name="com.luiscesjr.aquariodebolso.aquariodebolso.aquamain"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.luiscesjr.aquariodebolso.aquariodebolso.aquamenu"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_aquamenu"
+            android:parentActivityName="com.luiscesjr.aquariodebolso.aquariodebolso.aquamain"
+            android:theme="@style/FullscreenTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="aquamain" />
+        </activity>
+        <activity
+            android:name="com.luiscesjr.aquariodebolso.aquariodebolso.infomenu"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_infomenu"
+            android:parentActivityName="com.luiscesjr.aquariodebolso.aquariodebolso.aquamain"
+            android:theme="@style/FullscreenTheme" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="aquamain" />
+        </activity>
+        <activity
+            android:name="com.luiscesjr.aquariodebolso.aquariodebolso.aquadoce"
+            android:label="@string/title_activity_aquadoce"
+            android:parentActivityName="com.luiscesjr.aquariodebolso.aquariodebolso.infomenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="infomenu" />
+        </activity>
+        <activity
+            android:name="com.luiscesjr.aquariodebolso.aquariodebolso.aquamarinho"
+            android:label="@string/title_activity_aquamarinho"
+            android:parentActivityName="com.luiscesjr.aquariodebolso.aquariodebolso.infomenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="infomenu" />
+        </activity>
+        <activity
+            android:name="com.luiscesjr.aquariodebolso.aquariodebolso.ferramentas"
+            android:label="@string/title_activity_ferramentas"
+            android:parentActivityName="com.luiscesjr.aquariodebolso.aquariodebolso.infomenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="infomenu" />
+        </activity>
+        <activity
+            android:name="com.luiscesjr.aquariodebolso.aquariodebolso.guia"
+            android:label="@string/title_activity_guia"
+            android:parentActivityName="com.luiscesjr.aquariodebolso.aquariodebolso.infomenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="infomenu" />
+        </activity>
+        <activity
+            android:name="com.luiscesjr.aquariodebolso.aquariodebolso.conversoes"
+            android:label="@string/title_activity_conversoes"
+            android:parentActivityName="com.luiscesjr.aquariodebolso.aquariodebolso.infomenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="infomenu" />
+        </activity>
+        <activity
+            android:name="com.luiscesjr.aquariodebolso.aquariodebolso.calendario"
+            android:label="@string/title_activity_calendario"
+            android:parentActivityName="com.luiscesjr.aquariodebolso.aquariodebolso.infomenu" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="infomenu" />
+        </activity>
+        <activity
+            android:name="com.luiscesjr.aquariodebolso.aquariodebolso.peixesdoce"
+            android:label="@string/title_activity_peixesdoce"
+            android:parentActivityName="com.luiscesjr.aquariodebolso.aquariodebolso.aquadoce"
+            android:windowSoftInputMode="stateHidden" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="aquadoce" />
+        </activity>
+        <activity
+            android:name=".helper.searchactivity"
+            android:label="@string/app_name"
+            android:launchMode="singleTop" >
+            <intent-filter>
+                <action android:name="android.intent.action.SEARCH" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+            </intent-filter>
+
+            <meta-data
+                android:name="android.app.searchable"
+                android:resource="@xml/searchable" />
+        </activity>
+        <activity
+            android:name="com.luiscesjr.aquariodebolso.aquariodebolso.peixesdoce_layouts.CalvusBlack"
+            android:label="@string/title_activity_calvus_black"
+            android:parentActivityName="com.luiscesjr.aquariodebolso.aquariodebolso.peixesdoce" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="peixesdoce" />
+        </activity>
+        <activity
+            android:name="com.luiscesjr.aquariodebolso.aquariodebolso.ferramentasaqua.ferramentaaquario"
+            android:windowSoftInputMode="stateHidden"
+            android:label="@string/title_activity_ferramentaaquario"
+            android:parentActivityName="com.luiscesjr.aquariodebolso.aquariodebolso.ferramentas" >
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="ferramentas" />
+        </activity>
+    </application>
+
+</manifest>
