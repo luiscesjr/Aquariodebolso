@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<pre-dex-items>
+
+    <item
+        dex="C:\Users\Familia\AndroidStudioProjects\AquariodeBolso\Aquario de Bolso\build\intermediates\pre-dexed\debug\classes-b8ecd5f89c636702d5defde2fa4d1ca9d8a89bc0.jar"
+        jar="C:\Users\Familia\AndroidStudioProjects\AquariodeBolso\build\intermediates\exploded-aar\com.android.support\appcompat-v7\19.0.1\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="f71a6822470c9eb659d4f4a6cb57b780b35f058b"/>
+    <item
+        dex="C:\Users\Familia\AndroidStudioProjects\AquariodeBolso\Aquario de Bolso\build\intermediates\pre-dexed\debug\classes-62f2e7a82eb7ca5157ff0c4e132149ecd08df5c5.jar"
+        jar="C:\Users\Familia\AndroidStudioProjects\AquariodeBolso\build\intermediates\exploded-aar\com.android.support\gridlayout-v7\19.0.1\classes.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="b1701c49371231e0423b7588539f24bdab485019"/>
+    <item
+        dex="C:\Users\Familia\AndroidStudioProjects\AquariodeBolso\Aquario de Bolso\build\intermediates\pre-dexed\debug\support-v4-19.0.1-04dde37e48405b4442ed2e114457f34f6f27cab4.jar"
+        jar="C:\Program Files (x86)\Android\android-studio\sdk\extras\android\m2repository\com\android\support\support-v4\19.0.1\support-v4-19.0.1.jar"
+        jumboMode="false"
+        revision="19.1.0"
+        sha1="587da9a481ffd341d2fa091704489b89845ddacd"/>
+
+</pre-dex-items>
